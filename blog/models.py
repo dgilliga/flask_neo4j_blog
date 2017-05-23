@@ -4,9 +4,9 @@ from datetime import datetime
 import uuid
 import os
 
-url=os.environ.get("GRAPHENEDB_URL","http://localhost:7474")
+url = os.environ.get("GRAPHENEDB_URL", "http://localhost:7474")
 
-graph = Graph(url+"/db/data/")
+graph = Graph(url + "/db/data/")
 
 
 class User:
